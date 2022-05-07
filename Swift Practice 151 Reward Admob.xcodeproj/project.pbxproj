@@ -11,6 +11,8 @@
 		2DB90B4328264B2F001C4FE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB90B4228264B2F001C4FE2 /* ContentView.swift */; };
 		2DB90B4528264B31001C4FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB90B4428264B31001C4FE2 /* Assets.xcassets */; };
 		2DB90B4828264B31001C4FE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB90B4728264B31001C4FE2 /* Preview Assets.xcassets */; };
+		2DB90B5028264CA8001C4FE2 /* RewardAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB90B4F28264CA8001C4FE2 /* RewardAd.swift */; };
+		71FE3910F42E79229D163A4F /* Pods_Swift_Practice_151_Reward_Admob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC1A4CF2F5741552BD34386 /* Pods_Swift_Practice_151_Reward_Admob.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,11 @@
 		2DB90B4228264B2F001C4FE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DB90B4428264B31001C4FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DB90B4728264B31001C4FE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DB90B4E28264B3C001C4FE2 /* Swift-Practice-151-Reward-Admob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Swift-Practice-151-Reward-Admob-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2DB90B4F28264CA8001C4FE2 /* RewardAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardAd.swift; sourceTree = "<group>"; };
+		BDA3EF5755FF15AB81E27222 /* Pods-Swift Practice 151 Reward Admob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Practice 151 Reward Admob.debug.xcconfig"; path = "Target Support Files/Pods-Swift Practice 151 Reward Admob/Pods-Swift Practice 151 Reward Admob.debug.xcconfig"; sourceTree = "<group>"; };
+		E8C5A8D9715C6ADEE3EAF5A5 /* Pods-Swift Practice 151 Reward Admob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Practice 151 Reward Admob.release.xcconfig"; path = "Target Support Files/Pods-Swift Practice 151 Reward Admob/Pods-Swift Practice 151 Reward Admob.release.xcconfig"; sourceTree = "<group>"; };
+		EFC1A4CF2F5741552BD34386 /* Pods_Swift_Practice_151_Reward_Admob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Practice_151_Reward_Admob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71FE3910F42E79229D163A4F /* Pods_Swift_Practice_151_Reward_Admob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1863023B33F99845DBEC1222 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDA3EF5755FF15AB81E27222 /* Pods-Swift Practice 151 Reward Admob.debug.xcconfig */,
+				E8C5A8D9715C6ADEE3EAF5A5 /* Pods-Swift Practice 151 Reward Admob.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2DB90B3428264B2F001C4FE2 = {
 			isa = PBXGroup;
 			children = (
 				2DB90B3F28264B2F001C4FE2 /* Swift Practice 151 Reward Admob */,
 				2DB90B3E28264B2F001C4FE2 /* Products */,
+				1863023B33F99845DBEC1222 /* Pods */,
+				FA93A3EFB43311FCE29A306F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +70,10 @@
 		2DB90B3F28264B2F001C4FE2 /* Swift Practice 151 Reward Admob */ = {
 			isa = PBXGroup;
 			children = (
+				2DB90B4E28264B3C001C4FE2 /* Swift-Practice-151-Reward-Admob-Info.plist */,
 				2DB90B4028264B2F001C4FE2 /* Swift_Practice_151_Reward_AdmobApp.swift */,
 				2DB90B4228264B2F001C4FE2 /* ContentView.swift */,
+				2DB90B4F28264CA8001C4FE2 /* RewardAd.swift */,
 				2DB90B4428264B31001C4FE2 /* Assets.xcassets */,
 				2DB90B4628264B31001C4FE2 /* Preview Content */,
 			);
@@ -67,6 +88,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FA93A3EFB43311FCE29A306F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC1A4CF2F5741552BD34386 /* Pods_Swift_Practice_151_Reward_Admob.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DB90B4B28264B31001C4FE2 /* Build configuration list for PBXNativeTarget "Swift Practice 151 Reward Admob" */;
 			buildPhases = (
+				FC3CEED5450485352B479009 /* [CP] Check Pods Manifest.lock */,
 				2DB90B3928264B2F001C4FE2 /* Sources */,
 				2DB90B3A28264B2F001C4FE2 /* Frameworks */,
 				2DB90B3B28264B2F001C4FE2 /* Resources */,
+				DA49F93CFB6263C01ABB8F9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,11 +163,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DA49F93CFB6263C01ABB8F9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift Practice 151 Reward Admob/Pods-Swift Practice 151 Reward Admob-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift Practice 151 Reward Admob/Pods-Swift Practice 151 Reward Admob-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift Practice 151 Reward Admob/Pods-Swift Practice 151 Reward Admob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3CEED5450485352B479009 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift Practice 151 Reward Admob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2DB90B3928264B2F001C4FE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB90B5028264CA8001C4FE2 /* RewardAd.swift in Sources */,
 				2DB90B4328264B2F001C4FE2 /* ContentView.swift in Sources */,
 				2DB90B4128264B2F001C4FE2 /* Swift_Practice_151_Reward_AdmobApp.swift in Sources */,
 			);
@@ -263,6 +337,7 @@
 		};
 		2DB90B4C28264B31001C4FE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA3EF5755FF15AB81E27222 /* Pods-Swift Practice 151 Reward Admob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -272,6 +347,7 @@
 				DEVELOPMENT_TEAM = D758S53U98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-Practice-151-Reward-Admob-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -292,6 +368,7 @@
 		};
 		2DB90B4D28264B31001C4FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C5A8D9715C6ADEE3EAF5A5 /* Pods-Swift Practice 151 Reward Admob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +378,7 @@
 				DEVELOPMENT_TEAM = D758S53U98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-Practice-151-Reward-Admob-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

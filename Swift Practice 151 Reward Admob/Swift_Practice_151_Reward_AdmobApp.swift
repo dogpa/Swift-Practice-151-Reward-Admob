@@ -6,12 +6,34 @@
 //
 
 import SwiftUI
+import GoogleMobileAds
 
 @main
 struct Swift_Practice_151_Reward_AdmobApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+    
+    
+    //初始化Admob
+    init(){
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
     }
+    
+//      註解掉的為為參考資源寫法，可以執行。
+//    @Environment(\.scenePhase) private var scenePhase
+       
+       var body: some Scene {
+           WindowGroup {
+               ContentView()
+           }
+//           .onChange(of: scenePhase) { (newScenePhase) in
+//               if case .active = newScenePhase {
+//                   initMobileAds()
+//               }
+//           }
+       }
+       
+//       func initMobileAds() {
+//           GADMobileAds.sharedInstance().start(completionHandler: nil)
+//           // comment this if you want SDK Crash Reporting:
+//           GADMobileAds.sharedInstance().disableSDKCrashReporting()
+//       }
 }
